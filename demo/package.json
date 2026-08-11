@@ -1,0 +1,26 @@
+{
+	"name": "@moca-labs/mock-kit-ts-demo",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"typecheck": "vue-tsc --noEmit"
+	},
+	"dependencies": {
+		"@moca-labs/axios-kit-ts": "^0.6.2",
+		"@moca-labs/entity-kit-ts": "^0.6.2",
+		"axios": "^1.18.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.2",
+		"@types/node": "^25.9.3",
+		"@vitejs/plugin-vue": "^6.0.7",
+		"esbuild": "^0.28.1",
+		"typescript": "^6.0.3",
+		"vite": "^8.1.0",
+		"vue": "^3.5.38",
+		"vue-tsc": "^3.3.9"
+	}
+}

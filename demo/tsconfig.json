@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ESNext",
+		"lib": ["ES2022", "DOM", "esnext.decorators"],
+		"moduleResolution": "bundler",
+		"strict": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"types": ["vite/client"],
+		"paths": {
+			"@moca-labs/mock-kit-ts": ["../src/index.ts"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.vue", "vite.config.ts"]
+}
